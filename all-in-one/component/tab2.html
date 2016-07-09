@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bismillah Bootstrap</title>
+    <link href="../bootstrap_3_3_6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../thm-css/style.css" rel="stylesheet">
+
+    <style>
+        .nav-tabs>li{
+            margin-bottom: 0px;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .nav-tabs{
+            border-bottom: transparent;
+            border-right: 1px solid #e6e6e6;
+        }
+
+        .nav-tabs>li>a {
+            background: #f5f5f5;
+            color: #666;
+            border-radius: 0;
+            border: 0 none;
+            line-height: 24px;
+            margin-right:0;
+            padding: 13px 15px;
+        }
+
+        .nav-tabs li:last-child{
+            border-bottom: 0 none;
+        }
+
+        .nav-stacked>li+li{
+            margin-top: 0;
+        }
+
+        .nav-tabs>li>a:hover{
+            background: #1f1f20;
+            color:#fff;
+        }
+
+        .nav-tabs>li.active>a,
+        .nav-tabs>li.active>a:hover,
+        .nav-tabs>li.active>a:focus {
+            border: 0;
+            color:#fff;
+            background: #1f1f20;
+            position: relative;
+        }
+
+        .nav-tabs>li.active>a:after {
+            position: absolute;
+            content:  "";
+            width: auto;
+            height: auto;
+            border-style:solid;
+            border-color: transparent transparent transparent #1f1f20;
+            border-width: 25px 22px;
+            right: -44px;
+            top:0;
+        }
+
+        .tab-wrap{
+            border:1px solid #e6e6e6;
+            margin-bottom: 20px;
+        }
+
+        .tab-content{
+            padding: 20px;
+        }
+
+        .tab-content h2{
+            margin-top: 0;
+        }
+
+        .tab-content img{
+            border-radius: 4px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="tab-wrap">
+                <div class="media">
+                    <div class="parrent pull-left">
+                        <ul class="nav nav-tabs nav-stacked">
+                            <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Bangladesh</a></li>
+                            <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">India</a></li>
+                            <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
+                            <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Our Philosopy</a></li>
+                            <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">What We Do?</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="parrent media-body">
+                        <div class="tab-content">
+                            <div class="tab-pane fade" id="tab1">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="img-responsive" src="images/tab2.png">
+                                    </div>
+                                    <div class="media-body">
+                                        <h2>Adipisicing elit</h2>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade active in" id="tab2">
+                                <div class="media">
+                                    <div class="pull-left">
+                                        <img class="img-responsive" src="images/tab1.png">
+                                    </div>
+                                    <div class="media-body">
+                                        <h2>Adipisicing elit</h2>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab3">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab4">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab5">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                            </div>
+                        </div> <!--/.tab-content-->
+                    </div> <!--/.media-body-->
+                </div> <!--/.media-->
+            </div><!--/.tab-wrap-->
+        </div><!--/.col-sm-6-->
+    </div><!--/.row-->
+</div>
+
+
+
+
+
+
+<script src="../bootstrap_3_3_6/js/jquery-1.11.1.min.js"></script>
+<script src="../bootstrap_3_3_6/js/bootstrap.min.js"></script>
+</body>
+</html>

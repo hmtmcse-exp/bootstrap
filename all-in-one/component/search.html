@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bismillah Bootstrap</title>
+    <link href="../bootstrap_3_3_6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../thm-css/style.css" rel="stylesheet">
+</head>
+<body>
+<h1>Bismillahir Rohmanir Rahim</h1>
+
+<ul id="products">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+    <li>Madina</li>
+    <li>Muha</li>
+    <li>Makka</li>
+    <li>Mubarak</li>
+    <li>Mojo</li>
+</ul>
+<input id="filter" />
+
+
+
+
+<script src="../bootstrap_3_3_6/js/jquery-1.11.1.min.js"></script>
+<script src="../bootstrap_3_3_6/js/bootstrap.min.js"></script>
+
+<script>
+    jQuery(document).ready(function(){
+        var $products = $('#products li');
+        $('#filter').keyup(function() {
+            var re = new RegExp($(this).val(), "i"); // "i" means it's case-insensitive
+            $products.show().filter(function() {
+                return !re.test($(this).text());
+            }).hide();
+        });
+    });
+</script>
+
+</body>
+</html>

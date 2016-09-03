@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bismillah Bootstrap</title>
+    <link href="../bootstrap_3_3_6/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .highlight {
+            padding: 9px 14px;
+            margin-bottom: 5px;
+            background-color: #f7f7f9;
+            border: 1px solid #e1e1e8;
+            border-radius: 4px;
+        }
+        .placeholder {
+            padding: 9px 14px;
+            margin-bottom: 5px;
+            background-color: #b0c5f9;
+            border: 1px solid #e1e1e8;
+            border-radius: 4px;
+        }
+        ol.sortable,ol.sortable ol {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Bismillahir Rohmanir Rahim</h1>
+
+<div class="row">
+
+    <div class="col-sm-8">
+        <ol class="sortable">
+            <li><div class="highlight">Some content</div></li>
+            <li>
+                <div class="highlight">Some content</div>
+                <ol>
+                    <li><div class="highlight">Some sub-item content</div></li>
+                    <li><div class="highlight">Some sub-item content</div></li>
+                </ol>
+            </li>
+            <li><div class="highlight">Some content</div></li>
+        </ol>
+    </div>
+    <div class="col-sm-4">
+        <ol id="draggable">
+            <li class="from-menu-item"><div class="highlight">Some sub-item content</div></li>
+            <li class="from-menu-item"><div class="highlight">Some sub-item content</div></li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+<script src="../bootstrap_3_3_6/js/jquery-1.11.1.min.js"></script>
+<script src="../bootstrap_3_3_6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="asset/jquery-ui.min.js"></script>
+<script type="text/javascript" src="asset/jquery.mjs.nestedSortable.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sortable').nestedSortable({
+            forcePlaceholderSize: true,
+            handle: 'div',
+            helper:	'clone',
+            items: 'li',
+            opacity: .6,
+            placeholder: 'placeholder',
+            revert: 250,
+            tabSize: 25,
+            tolerance: 'pointer',
+            toleranceElement: '> div',
+            maxLevels: 4,
+            isTree: true,
+            expandOnHover: 700,
+            startCollapsed: false,
+            change: function(){
+                console.log('Relocated item');
+            }
+        });
+
+        $( "#draggable > li" ).draggable({
+            helper: "clone",
+            refreshPositions: true
+        });
+        $( ".sortable" ).droppable({
+            drop: function( event, ui ) {
+                if (ui.draggable.hasClass("from-menu-item")){
+                    jQuery(".sortable").append('<li><div class="highlight">' + ui.draggable.text() + '</div></li>');
+                }
+            }
+        })
+
+        $('#toArray').click(function(e){
+            arraied = $('ol.sortable').nestedSortable('toArray');
+          console.log(arraied);
+        });
+
+    });
+</script>
+
+
+</body>
+</html>

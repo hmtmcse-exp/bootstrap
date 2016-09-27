@@ -3,18 +3,26 @@
 <head>
     <meta charset="utf-8">
     <title>Reveal.js 3 Slide Demo</title>
-    <link href="../bootstrap_3_3_6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="reveal.js/bootstrap_3_3_6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="reveal.js/css/reveal.css">
     <link rel="stylesheet" href="reveal.js/css/theme/black.css">
+    <link rel="stylesheet" href="reveal.js/style.css">
 </head>
 
 <body>
 <div class="reveal">
     <div class="slides">
-        <section id="show-a-link">
-            <h1>Show a live link</h1>
-            <p>Slide 2 discussed here</p>
-            <p>See <a href="http://www.htmlcheats.com">HTMLCheats.com</a><p>
+        <section class="container">
+
+            <div class="row">
+                <div class="col-sm-10 text-left font-size-15">
+                    A: "What do you do besides work and watching TV?"<br>B: "When I have some time, I like to exercise."<br>A: "Do you go jogging or do you go to a health club?"<br>B: "I joined Samsung Health Club a couple of months ago."<br>A: "How do you exercise?"<br>B: "I usually spend 30 minutes on the bicycle for the cardio, and then I lift weight for about 45 minutes."<br>A: "How often do you go?"<br>B: "I want to go four times a week, but I'm too lazy. Last week, I only went to workout once."
+                </div>
+                <div class="col-sm-2">
+                    Yes
+                </div>
+            </div>
+
         </section>
 
         <section>
@@ -26,13 +34,16 @@
     </div>
 </div>
 
-<script src="../bootstrap_3_3_6/js/jquery-1.11.1.min.js"></script>
-<script src="../bootstrap_3_3_6/js/bootstrap.min.js"></script>
+<script src="reveal.js/bootstrap_3_3_6/js/jquery-1.11.1.min.js"></script>
+<script src="reveal.js/bootstrap_3_3_6/js/bootstrap.min.js"></script>
 <script src="reveal.js/js/head.min.js"></script>
 <script src="reveal.js/js/reveal.js"></script>
 
 <script>
-    Reveal.initialize({});
+    Reveal.initialize({
+        width: "100%",
+        margin: 0.1,
+    });
 </script>
 </body>
 </html>

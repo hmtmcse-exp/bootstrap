@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: Responsive embed
-link: embed
-weight: 9
+displayName: Responsive embed
+pageLink: embed
+pageWeight: 9
 ---

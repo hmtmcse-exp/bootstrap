@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: Table
-link: table
-weight: 8
+displayName: Table
+pageLink: table
+pageWeight: 8
 ---

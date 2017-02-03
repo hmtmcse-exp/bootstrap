@@ -31,10 +31,12 @@
           {{ content }}
         </section>
         <aside id="sidebar">
-          {% assign sorted_pages = site.pages | sort: 'weight' %}
+          {% assign sorted_pages = site.pages | sort: 'pageWeight' %}
           <ul class="list-group">
             {% for page in sorted_pages %}
-            <li class="list-group-item"><a href="/bootstrap/{{ page.link }}">{{page.name}}</a></li>
+            {% if page.displayName %}
+            <li class="list-group-item"><a href="/bootstrap/{{ page.pageLink }}">{{page.displayName}}</a></li>
+            {% endif %}
             {% endfor %}
           </ul>
         </aside>

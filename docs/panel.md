@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: Panel
-link: panel
-weight: 3
+displayName: Panel
+pageLink: panel
+pageWeight: 3
 ---

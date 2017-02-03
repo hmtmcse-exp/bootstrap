@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: List Group
-link: list-group
-weight: 7
+displayName: List Group
+pageLink: list-group
+pageWeight: 7
 ---

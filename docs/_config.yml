@@ -1,6 +1,6 @@
 title: Bootstrap Tutor
 description: H.M.Touhid Mia
 collections:
-  pages:
-    permalink: /bootstraps
-    output: true
+#  pages:
+#    permalink: /bootstraps
+#    output: true

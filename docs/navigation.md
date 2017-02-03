@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: Navigation
-link: navigation
-weight: 5
+displayName: Navigation
+pageLink: navigation
+pageWeight: 5
 ---

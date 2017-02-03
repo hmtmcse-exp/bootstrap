@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: Form
-link: form
-weight: 4
+displayName: Form
+pageLink: form
+pageWeight: 4
 ---

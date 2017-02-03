@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-name: Thumbnails
-link: thumbnails
-weight: 6
+displayName: Thumbnails
+pageLink: thumbnails
+pageWeight: 6
 ---

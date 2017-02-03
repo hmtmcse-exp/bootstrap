@@ -31,7 +31,7 @@
           {{ content }}
         </section>
         <aside id="sidebar">
-          {% assign sorted_pages = site.pases | sort: 'weight' %}
+          {% assign sorted_pages = site.pages | sort: 'weight' %}
           <ul class="list-group">
             {% for page in sorted_pages %}
             <li class="list-group-item"><a href="/{{ page.link }}">{{page.name}}</a></li>

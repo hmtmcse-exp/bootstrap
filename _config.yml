@@ -3,5 +3,5 @@ description: DevOps Bit Mascot Pvt. Ltd
 collections:
   photo_gallery:
   pages:
-    permalink: /pages
+    permalink: /bootstrap/pages
     output: true

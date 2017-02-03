@@ -1,7 +1,6 @@
 title: H.M.Touhid Mia
 description: DevOps Bit Mascot Pvt. Ltd
 collections:
-  photo_gallery:
-  bootstrap:
-    permalink: /pages/bootstrap
+  pages:
+    permalink: /bootstraps
     output: true

@@ -34,7 +34,7 @@
           {% assign sorted_pages = site.pages | sort: 'weight' %}
           <ul class="list-group">
             {% for page in sorted_pages %}
-            <li class="list-group-item"><a href="/{{ page.link }}">{{page.name}}</a></li>
+            <li class="list-group-item"><a href="/bootstrap/{{ page.link }}">{{page.name}}</a></li>
             {% endfor %}
           </ul>
         </aside>

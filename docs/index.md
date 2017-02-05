@@ -6,7 +6,7 @@ pageWeight: 1
 ---
 
 
-# How to start Bootstrap CSS.
+# How to start Bootstrap CSS?
 
 
 1. In you Desktop create a directory **bismilla**

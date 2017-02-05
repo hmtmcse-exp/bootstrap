@@ -17,6 +17,7 @@ pageWeight: 1
 6. Copy js/bootstrap.min.js to desktop/bismillah/js
 7. Copy fonts/ to desktop/bismillah/fonts
 8. Now create a index.html file into the **bismillah** directory and put the below codes.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -37,4 +38,7 @@ pageWeight: 1
 </body>
 </html>
 ```
-9. Download the example from [here](https://github.com/hmtmcse/bootstrap/blob/master/download/bismillah.zip).
+
+
+
+**Download the example from [here](https://github.com/hmtmcse/bootstrap/blob/master/download/bismillah.zip).**

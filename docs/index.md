@@ -41,4 +41,4 @@ pageWeight: 1
 
 
 
-**Download the example from [here](https://github.com/hmtmcse/bootstrap/blob/master/download/bismillah.zip).**
+**Download the example from [here](https://github.com/hmtmcse/bootstrap/blob/master/download/bismillah.zip?raw=true).**

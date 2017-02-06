@@ -36,6 +36,34 @@ pageWeight: 3
 </div>
 ```
 
+<br><br>
+
+### Basic Panel without footer Example:
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">Panel title</div>
+    </div>
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
+
+
+<br>
+
+### Basic Panel Without Footer Example Codes:
+
+```html
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">Panel title</div>
+    </div>
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
+```
+
 
 <br><br>
 

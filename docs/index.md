@@ -9,7 +9,7 @@ pageWeight: 1
 # How to start Bootstrap CSS?
 
 
-1. In you Desktop create a directory **bismilla**
+1. In you Desktop create a directory/folder **bismilla**
 2. Inside the **bismilla** directory create more 3 directories **css**, **fonts** and **js**
 3. Go **[Here](http://getbootstrap.com/getting-started)** and click on **Download Bootstrap** button
 4. Extract the .zip file or open it.

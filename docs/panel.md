@@ -214,6 +214,6 @@ pageWeight: 3
     <div class="panel-body">
         Panel content
     </div>
-    <div class="panel-footer panel-danger">Panel footer</div>
+    <div class="panel-footer">Panel footer</div>
 </div>
 ```

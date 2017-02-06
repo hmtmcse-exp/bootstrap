@@ -21,6 +21,7 @@ pageWeight: 3
 
 <br>
 ### Example Code:
+
 ```html
 <div class="panel panel-default">
     <div class="panel-heading">

@@ -11,15 +11,12 @@ pageWeight: 3
 ### Basic Example:
  
 ### Looks
-<div class="container">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-        </div>
-        <div class="panel-body">
-            Panel content
-        </div>
-        <div class="panel-footer">Panel footer</div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">Panel title</div>
     </div>
+    <div class="panel-body">
+        Panel content
+    </div>
+    <div class="panel-footer">Panel footer</div>
 </div>
- 

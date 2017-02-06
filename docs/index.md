@@ -12,7 +12,7 @@ pageWeight: 1
 1. In you Desktop create a directory/folder **bismilla**
 2. Inside the **bismilla** directory/folder create more 3 directories/folders **css**, **fonts** and **js**
 3. Go **[Here](http://getbootstrap.com/getting-started)** and click on **Download Bootstrap** button
-4. Extract the .zip file or open it.
+4. Extract the bootstrap-x.x.x-dist.zip file or open it.
 5. From the extract zip file Copy css/bootstrap-min.css to desktop/bismillah/css
 6. Copy js/bootstrap.min.js to desktop/bismillah/js
 7. Copy fonts/ to desktop/bismillah/fonts

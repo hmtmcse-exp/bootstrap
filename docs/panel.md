@@ -9,8 +9,6 @@ pageWeight: 3
 ---
 
 ### Basic Example:
- 
-### Looks
 <div class="panel panel-default">
     <div class="panel-heading">
         <div class="panel-title">Panel title</div>
@@ -20,3 +18,4 @@ pageWeight: 3
     </div>
     <div class="panel-footer">Panel footer</div>
 </div>
+

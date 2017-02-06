@@ -19,3 +19,16 @@ pageWeight: 3
     <div class="panel-footer">Panel footer</div>
 </div>
 
+<br>
+### Example Code:
+```html
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-title">Panel title</div>
+    </div>
+    <div class="panel-body">
+        Panel content
+    </div>
+    <div class="panel-footer">Panel footer</div>
+</div>
+```

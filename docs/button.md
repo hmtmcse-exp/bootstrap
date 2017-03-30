@@ -43,6 +43,13 @@ pageWeight: 11
   <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
 </button>
 
+<button type="button" class="btn btn-success">
+  <span class="glyphicon glyphicon-ok"></span>
+</button>
+
+<button type="button" class="btn btn-danger">
+  <span class="glyphicon glyphicon-remove"></span>
+</button>
 
 <br>
 
@@ -55,5 +62,13 @@ pageWeight: 11
 
 <button type="button" class="btn btn-default btn-lg">
   <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+</button>
+
+<button type="button" class="btn btn-success">
+  <span class="glyphicon glyphicon-ok"></span>
+</button>
+
+<button type="button" class="btn btn-danger">
+  <span class="glyphicon glyphicon-remove"></span>
 </button>
 ```
